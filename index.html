@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Firebase RealTime Chat</title>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="title">
+        <h1>Private Chat Application</h1>
+        <p>Please be respectful to everyone <br> All Messages Are Encrypted</p>
+        </div>
+        <div class="cm">
+      <div id="chat">
+        <!-- messages will display here -->
+        <ul id="messages"></ul>
+      </div>
+  
+        <!-- form to send message -->
+        <form id="message-form">
+          <input id="message-input"type="text" />
+          <button id="message-btn" type="submit">Send message</button>
+        </form>
+      </div>
+      </div>
+      </div>
+    <!-- scripts -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
