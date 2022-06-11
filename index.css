@@ -55,10 +55,8 @@ li span {
 }
 
 #chat {
-    display: flex;
+    display: inline-block;
     width: auto;
-    align-content: center;
-    justify-content: center;
 }
 #message-form {
     text-align: center;
